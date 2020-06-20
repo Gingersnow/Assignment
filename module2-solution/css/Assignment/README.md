@@ -1,2 +1,0 @@
-# Assignment
-Submitting Coursera Assignments
