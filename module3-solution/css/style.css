@@ -1,0 +1,141 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #d1f542;
+  font-family: 'Lato', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bc9aed;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand{
+font-family: 'Lato', sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2697d4;
+}
+
+.navbar-collapse.collapse.in ul{
+    margin-top:0;
+    margin-bottom:0;
+    background:#f7a6cd;
+}
+
+.navbar-collapse.collapse.in ul:nth-child(1){
+    border-top:2px solid grey;
+}
+
+#nav-list a {
+  color: #642fba;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight:bold;
+  padding-top:5px;
+  border: 2px solid grey;
+  border-top:0;
+
+}
+#nav-list-bottom {
+    border-bottom:solid grey;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+/* END HEADER */
+
+/*Home Page*/
+.jumbotron{
+background-color: inherit;
+position:relative;
+padding-top:0;
+}
+
+.container-fluid.jumbotron{
+    padding-left:0;
+    padding-right:0;
+}
+
+.jumbotron h1{
+  color: black;
+  margin-bottom: 50px;
+}
+
+.jumbotron h3{
+  color:black
+}
+
+.jumbotron section{
+    clear:right;
+    padding:10px;
+    font-size: 1.25em;
+    background-color: #bc9aed;
+    color:black;
+}
+
+
+.jumbotron.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    float: left;
+    width: 33.33%;
+  }
+  .container-fluid.jumbotron{
+    padding-left:0;
+    padding-right:0;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .col-sm-6, .col-sm-12 {
+  float: left;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+  .container-fluid.jumbotron{
+    padding-left:0;
+    padding-right:0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+ .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+
+
+#box {
+    background-color: #bc9aed;
+    padding: 0px;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 10px;
+  }
+}
